@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #fafafa;
+        }
+        .form-container{
+            width: 400px;
+            padding: 2rem;
+            box-shadow: 2px 6px 8px rgba(0, 0, 0,.6);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            border-radius: 5px;
+        }
+        .form{
+            
+            display: grid;
+        }
+        input{
+            padding: 7px 10px;
+            margin-bottom: 15px;
+            border: none;
+            background: transparent;
+            outline: none;
+
+        }
+        input:focus{
+            border: none;
+            /* outline: none; */
+            background-color: rgba(130, 172, 172, 0.7);
+            
+        }
+        button{
+            padding: 7px 10px;
+            color: white;
+            background-color: green;
+            font-weight:bold;
+        }
+        h1{
+            font-size: 3rem;
+            font-weight: 900;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        function theek(){
+            let email = document.getElementById('email');
+            let password = document.getElementById('password');
+            
+            if(!email.value){
+                alert("Email cannot be empty")
+            }
+
+            if(!password.value){
+                alert("password cannot be empty")
+            }
+
+        }
+    </script>
+
+    <div class="form-container">
+        <h1>Login</h1>
+        <hr>
+        <form method = "get" class="form">
+            <input type="email" id="email" placeholder="email">
+            <input type="password" id="password" placeholder="password">
+            <button class="submit" onclick="theek();">Login</button>
+        </form>
+    </div>
+    
+</body>
+</html>

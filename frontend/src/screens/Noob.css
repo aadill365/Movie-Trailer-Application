@@ -1,0 +1,17 @@
+.noob {
+  background: url("../static/images/background.jpg");
+  /* width: 100%; */
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.logo {
+  width: 80px;
+  object-fit: contain;
+  position: fixed;
+  left: 0;
+}
+.noob__btn {
+  position: fixed;
+  right: 0;
+}
