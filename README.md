@@ -4,4 +4,4 @@ The overview of the project
 
 Snapshots:
 
-<img src="welcomPage.png">
+<img src="images/welcomPage.png">
