@@ -29,8 +29,8 @@ const StripeBtn = () => {
   return (
     <StripeCheckout
       label="Go Premium" //Component button text
-      name="Koseeke Technologies" //Modal Header
-      description="Upgrade to koseeke premium account today."
+      name="Netflix Clone" //Modal Header
+      description="Upgrade to Netflix Clone premium account today."
       panelLabel="Go Premium" //Submit button in modal
       amount={100 * 100} //Amount in cents $9.99
       currency="INR"
